@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/b4c2d7c4-a3f3-4cf3-99bc-8a2671609d19%2FIce%20Cream%20Logo.jpeg?v=1626718620346"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ice Cream 4 All: Locations</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link mt-2 mt-lg-0"
+                href="https://icecream-4-all.glitch.me/"
+              >
+                <img
+                  src="https://cdn.glitch.com/b4c2d7c4-a3f3-4cf3-99bc-8a2671609d19%2FIce%20Cream%20Logo.jpeg?v=1626718620346"
+                  alt="Ice Cream Logo"
+                  height="40px"
+                  width="auto"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locations.html">Locations</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenu2"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a class="text-muted text-decoration-none" href="buy-now.html"
+                  >Shop Online</a
+                >
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a href="buy-now.html#vegan"
+                  ><button class="dropdown-item" type="button">Vegan</button></a
+                >
+                <a href="buy-now.html#organic"
+                  ><button class="dropdown-item" type="button">
+                    Organic
+                  </button></a
+                >
+                <a href="buy-now.html#non-dairy"
+                  ><button class="dropdown-item" type="button">
+                    Non-Dairy
+                  </button></a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenu4"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a class="text-muted text-decoration-none" href="recipes.html"
+                  >Recipes</a
+                >
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a href="recipes.html#homemade"
+                  ><button class="dropdown-item" type="button">
+                    Homemade
+                  </button></a
+                >
+                <a href="recipes.html#vegan"
+                  ><button class="dropdown-item" type="button">Vegan</button></a
+                >
+                <a href="recipes.html#dairy-free"
+                  ><button class="dropdown-item" type="button">
+                    Dairy-Free
+                  </button></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Locations -->
+    <!-- Jumbotron -->
+    <section class="py-5">
+      <div class="lead text-center">
+        <div
+          class="jumbotron jumbotron-fluid"
+          style="background:url(https://image.shutterstock.com/image-photo/famous-golden-gate-bridge-san-600w-136918865.jpg) no-repeat; background-size: cover;"
+        >
+          <div class="bg-light my-5">
+            <h1 class="text-center text-dark display-4">
+              Locations in the Bay Area
+            </h1>
+            <p class="text-center text-dark">
+              “It’s fun. When people come in to buy ice cream, they’re happy.
+              It’s a treat.” - Mike Manfredi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Google Maps -->
+    <section id="vegan" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-2 justify-content-center"
+        >
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50491.366227331004!2d-122.43900085283732!3d37.72647524681679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3dca11eb7b%3A0xd42874b85c1957ad!2sSmitten%20Ice%20Cream!5e0!3m2!1sen!2sus!4v1626816432918!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <!-- Product details-->
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Smitten Ice Cream</h5>
+                  904 Valencia St, San Francisco, CA 94110
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://www.smittenicecream.com"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.378582883318!2d-122.42326258468279!3d37.75772037976257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3c2cdf5377%3A0x528799953ca611cc!2sXanath%20Ice%20Cream!5e0!3m2!1sen!2sus!4v1626816884445!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Xanath Ice Cream</h5>
+                  951 Valencia St, San Francisco, CA 94110
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="http://www.xanath.com/home.html"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.337576075615!2d-122.42263108468276!3d37.758682079762444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3c47d39a6d%3A0x87ffbcfa5de10cd4!2sGarden%20Creamery!5e0!3m2!1sen!2sus!4v1626817226970!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Garden Creamery</h5>
+                  3566 20th St, San Francisco, CA 94110
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://gardencreamery.com/home/"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.6364376987344!2d-122.40630628468378!3d37.728210779768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7f4c66bc2181%3A0xa7aa197c3e0681a1!2sChurn%20Urban%20Creamery%20%2B%20Bakery!5e0!3m2!1sen!2sus!4v1626817025501!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Churn Urban Creamery + Bakery</h5>
+                  2646 San Bruno Ave, San Francisco, CA 94134
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="http://churnsf.com"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50491.366227331004!2d-122.43900085283732!3d37.72647524681679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587533333b3b1%3A0x1af53cf12b701bfa!2zQmVuICYgSmVycnnigJlz!5e0!3m2!1sen!2sus!4v1626817214240!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Ben & Jerry’s</h5>
+                  1480 Haight St, San Francisco, CA 94117
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://www.benjerry.com/flavors?utm_medium=paidsearch&utm_source=google&utm_name=bj_alwayson_brand2019_traffic&utm_term=&utm_content=serp&utm_topic=flavors&utm_objective=discover&utm_root=d&gclid=EAIaIQobChMInuaYh4rz8QIVLfzjBx33NwTxEAAYAiAAEgKn5fD_BwE"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.213578056435!2d-122.42790568468281!3d37.76158997976185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e183c2a5c87%3A0xf75bf92aa3d52296!2sBi-Rite%20Creamery!5e0!3m2!1sen!2sus!4v1626817068983!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Bi-Rite Creamery</h5>
+                  3692 18th St, San Francisco, CA 94110
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://biritemarket.com/creamery/"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.1791391169236!2d-122.46814528468263!3d37.76239757976165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085875e822bc489%3A0xb4918b08b3ccc90e!2sHoly%20Gelato*21!5e0!3m2!1sen!2sus!4v1626817091107!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Holy Gelato!</h5>
+                  1392 9th Ave, San Francisco, CA 94122
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://www.holygelatosf.com"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-img-top"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.572627969044!2d-122.42823418468238!3d37.77661797975919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580a25b09718f%3A0x53cd2bf0f7e5e007!2sSalt%20%26%20Straw!5e0!3m2!1sen!2sus!4v1626817106743!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Salt & Straw</h5>
+                  586 Hayes St, San Francisco, CA 94102
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://saltandstraw.com/collections/shop-all?g_network=g&g_adid=419541610940&g_keyword=salt%20and%20straw&g_acctid=707-497-5162&g_adtype=search&g_adgroupid=93286830454&g_keywordid=aud-1187013919857:kwd-321980030064&g_campaign=Search+-+Brand+-+US&g_campaignid=9330332531&gclid=EAIaIQobChMI79qTrorz8QIVYSmzAB2Z4QkrEAAYASAAEgI7GvD_BwE"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-4">
+          <i class="far fa-arrow-alt-circle-up fa-2x up-icon"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

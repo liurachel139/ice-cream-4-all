@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/b4c2d7c4-a3f3-4cf3-99bc-8a2671609d19%2FIce%20Cream%20Logo.jpeg?v=1626718620346"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ice Cream 4 All: Recipes</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link mt-2 mt-lg-0"
+                href="https://icecream-4-all.glitch.me/"
+              >
+                <img
+                  src="https://cdn.glitch.com/b4c2d7c4-a3f3-4cf3-99bc-8a2671609d19%2FIce%20Cream%20Logo.jpeg?v=1626718620346"
+                  alt="Ice Cream Logo"
+                  height="40px"
+                  width="auto"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locations.html">Locations</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenu2"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a class="text-muted text-decoration-none" href="buy-now.html"
+                  >Shop Online</a
+                >
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a href="buy-now.html#vegan"
+                  ><button class="dropdown-item" type="button">Vegan</button></a
+                >
+                <a href="buy-now.html#organic"
+                  ><button class="dropdown-item" type="button">
+                    Organic
+                  </button></a
+                >
+                <a href="buy-now.html#non-dairy"
+                  ><button class="dropdown-item" type="button">
+                    Non-Dairy
+                  </button></a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenu4"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a class="text-muted text-decoration-none" href="recipes.html"
+                  >Recipes</a
+                >
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a href="recipes.html#homemade"
+                  ><button class="dropdown-item" type="button">
+                    Homemade
+                  </button></a
+                >
+                <a href="recipes.html#vegan"
+                  ><button class="dropdown-item" type="button">Vegan</button></a
+                >
+                <a href="recipes.html#dairy-free"
+                  ><button class="dropdown-item" type="button">
+                    Dairy-Free
+                  </button></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Recipes Heading -->
+
+    <!-- Jumbotron -->
+    <section class="py-5">
+      <div class="lead text-center">
+        <div
+          class="jumbotron jumbotron-fluid"
+          style="background:url(https://image.shutterstock.com/image-photo/baking-cooking-background-frame-ingredients-600w-614373557.jpg) no-repeat; background-size: cover;"
+        >
+          <div class="bg-light my-5">
+            <h1 class="text-center text-dark display-4">
+              Recipes
+            </h1>
+            <p class="text-center text-dark">
+              “It is a grave error to assume that ice cream consumption requires
+              hot weather.” - Anne Faiman
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Youtube Videos -->
+
+    <!-- Homemade -->
+    <section id="homemade" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="lead text-center pb-5">
+          <h1>
+            Homemade
+          </h1>
+        </div>
+        <div
+          class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-2 justify-content-center"
+        >
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/xfwi2WEbLbs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Nino's Home</h5>
+                  Chocolate Ice Cream 3 Ingredients [No Machine]
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://youtu.be/xfwi2WEbLbs"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/DLOSxj7NpZ4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Tasty</h5>
+                  10 Ice Cream Recipes To Keep You Cool All Summer
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://youtu.be/DLOSxj7NpZ4"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/MdirPsiHnCA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Babish Culinary Universe</h5>
+                  Ice Cream | Basics with Babish
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://basicswithbabish.co/basicsepisodes/icecream"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/7XV7whomojk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Joshua Weissman</h5>
+                  The Easiest Way To Make Ice Cream
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://www.joshuaweissman.com/post/homemade-ice-cream"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Vegan -->
+    <section id="vegan" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="lead text-center pb-5">
+          <h1>
+            Vegan
+          </h1>
+        </div>
+        <div
+          class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-2 justify-content-center"
+        >
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/GskNlVKw9sc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Tasty</h5>
+                  The Best Vegan Vanilla Ice Cream
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://tasty.co/recipe/the-best-vegan-vanilla-ice-cream"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/QJc6HfeTivU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">avantgardevegan</h5>
+                  Mango and Passion Fruit Vegan Ice Cream
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://www.avantgardevegan.com/recipes/mango-passionfruit-ice-cream/"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/z-g8rBfqNUY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">The Domestic Geek</h5>
+                  5 EASY Vegan "Ice Cream" Recipes | Dairy Free Summer Desserts
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://youtu.be/z-g8rBfqNUY"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/5n8dcbHxcCc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Mind Over Munch</h5>
+                  Homemade Vegan Ice Cream (No Machine)! 3-Ingredients!
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="http://mindovermunch.com/PDF/May14_VeganIceCream_MindOverMunch.pdf"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Dairy-Free -->
+    <section id="dairy-free" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="lead text-center pb-5">
+          <h1>
+            Dairy-Free
+          </h1>
+        </div>
+        <div
+          class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-2 justify-content-center"
+        >
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/w9XTC6_oxAw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Rosanna Pansino</h5>
+                  3 EASY Dairy-Free Ice Cream Recipes (Using A Blender)
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://youtu.be/w9XTC6_oxAw"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/YzZ-L2ATaPA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Liv B</h5>
+                  Dairy-Free Ice-Cream Recipe (No Ice-cream Machine Required)
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://youtu.be/YzZ-L2ATaPA"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/buei7Vl5mNo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Thrive Market</h5>
+                  Oat Milk Ice Cream Recipe (Dairy-Free, Gluten-Free)
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://thrivemarket.com/blog/2-ways-to-make-dairy-free-and-gluten-free-oat-milk-ice-cream"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  mb-5">
+            <div class="card h-100">
+              <iframe
+                class="card-image-top"
+                width="auto"
+                height="450"
+                src="https://www.youtube.com/embed/DQz7xdxBNNI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Bigger Bolder Baking</h5>
+                  Dairy-Free Coconut Ice Cream (No Machine)
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-primary mt-auto"
+                    target="_blank"
+                    href="https://www.biggerbolderbaking.com/dairy-free-coconut-ice-cream/"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-4">
+          <i class="far fa-arrow-alt-circle-up fa-2x up-icon"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
