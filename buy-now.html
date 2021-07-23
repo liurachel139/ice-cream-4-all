@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/b4c2d7c4-a3f3-4cf3-99bc-8a2671609d19%2FIce%20Cream%20Logo.jpeg?v=1626718620346"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ice Cream 4 All: Shop Online</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link mt-2 mt-lg-0"
+                href="https://icecream-4-all.glitch.me/"
+              >
+                <img
+                  src="https://cdn.glitch.com/b4c2d7c4-a3f3-4cf3-99bc-8a2671609d19%2FIce%20Cream%20Logo.jpeg?v=1626718620346"
+                  alt="Ice Cream Logo"
+                  height="40px"
+                  width="auto"
+                  loading="lazy"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locations.html">Locations</a>
+            </li>
+            <!--                 <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop Online
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#vegan">Vegan</a></li>
+                    <li><a class="dropdown-item" href="#organic">Organic</a></li>
+                    <li><a class="dropdown-item" href="#non-dairy">Non-Dairy</a></li>
+                  </ul>
+                </li> -->
+
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenu2"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a class="text-muted text-decoration-none" href="buy-now.html"
+                  >Shop Online</a
+                >
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a href="buy-now.html#vegan"
+                  ><button class="dropdown-item" type="button">Vegan</button></a
+                >
+                <a href="buy-now.html#organic"
+                  ><button class="dropdown-item" type="button">
+                    Organic
+                  </button></a
+                >
+                <a href="buy-now.html#non-dairy"
+                  ><button class="dropdown-item" type="button">
+                    Non-Dairy
+                  </button></a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenu4"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a class="text-muted text-decoration-none" href="recipes.html"
+                  >Recipes</a
+                >
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a href="recipes.html#homemade"
+                  ><button class="dropdown-item" type="button">
+                    Homemade
+                  </button></a
+                >
+                <a href="recipes.html#vegan"
+                  ><button class="dropdown-item" type="button">Vegan</button></a
+                >
+                <a href="recipes.html#dairy-free"
+                  ><button class="dropdown-item" type="button">
+                    Dairy-Free
+                  </button></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Shop Online ALL -->
+
+    <!-- Image source: shutterstock.com -->
+
+    <!-- Jumbotron -->
+    <section class="py-5">
+      <div class="lead text-center">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="bg-light my-5">
+            <h1 class="text-center text-dark display-4">
+              Shop Online
+            </h1>
+            <p class="text-center text-dark">
+              “If you like ice cream, why stop at one scoop? Have two, have
+              three. Too much is never enough.” - Morris Lapidus
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Vegan -->
+    <section id="vegan" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="lead text-center pb-5">
+          <h1>
+            Vegan
+          </h1>
+        </div>
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/homemade-organic-vanilla-ice-cream-600w-281680307.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/homemade-organic-vanilla-ice-cream-600w-281680307.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Vanilla</h5>
+                  $4.00 - $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/bowl-chocolate-ice-cream-on-600w-606184166.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/bowl-chocolate-ice-cream-on-600w-606184166.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Chocolate</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/raspberry-ice-cream-white-bowl-600w-582348265.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/raspberry-ice-cream-white-bowl-600w-582348265.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Strawberry</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $5.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/flat-lay-composition-bowl-chocolate-600w-1325633840.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/flat-lay-composition-bowl-chocolate-600w-1325633840.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Cookies N' Cream</h5>
+
+                  $7.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/organic-green-mint-chocolate-chip-600w-168029429.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/organic-green-mint-chocolate-chip-600w-168029429.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Mint Chocolate Chip</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $5.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/delicious-sweet-vanilla-ice-cream-600w-406446517.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/delicious-sweet-vanilla-ice-cream-600w-406446517.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Salted Caramel</h5>
+                  $5.00 - $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/butter-pecan-ice-cream-waffle-600w-1110602489.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/butter-pecan-ice-cream-waffle-600w-1110602489.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Butter Pecan</h5>
+
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/mango-ice-cream-sorbet-bowl-600w-1065367559.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/mango-ice-cream-sorbet-bowl-600w-1065367559.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Mango</h5>
+
+                  $4.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Organic -->
+    <section id="organic" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="lead text-center p-5">
+          <h1>
+            Organic
+          </h1>
+        </div>
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/vanilla-ice-cream-mint-bowl-600w-370420070.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/vanilla-ice-cream-mint-bowl-600w-370420070.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Vanilla</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $6.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/bowl-chocolate-ice-cream-600w-1715641486.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/bowl-chocolate-ice-cream-600w-1715641486.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Chocolate</h5>
+
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/top-view-ice-cream-strawberry-600w-279169097.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/top-view-ice-cream-strawberry-600w-279169097.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Strawberry</h5>
+
+                  $7.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/green-tea-ice-cream-mint-600w-289068905.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/green-tea-ice-cream-mint-600w-289068905.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Green Tea</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $7.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/fresh-hazelnut-ice-cream-on-600w-77915197.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/fresh-hazelnut-ice-cream-on-600w-77915197.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Hazelnut</h5>
+
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/pistachio-ice-cream-white-bowl-600w-397587982.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/pistachio-ice-cream-white-bowl-600w-397587982.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Pistachio</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/blueberry-ice-cream-bowl-close-600w-108153845.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/blueberry-ice-cream-bowl-close-600w-108153845.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Blueberry</h5>
+
+                  $6.50
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/bowl-tasty-icecream-raspberries-on-600w-1140408995.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/bowl-tasty-icecream-raspberries-on-600w-1140408995.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Raspberry</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$6.50</span
+                  >
+                  $5.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Non-Dairy -->
+    <section id="non-dairy" class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="lead text-center p-5">
+          <h1>
+            Non-Dairy
+          </h1>
+        </div>
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/vanilla-ice-cream-balls-mint-600w-1406131577.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/vanilla-ice-cream-balls-mint-600w-1406131577.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Vanilla</h5>
+                  $7.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/chocolate-ice-cream-syrup-close-600w-77915188.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/chocolate-ice-cream-syrup-close-600w-77915188.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Chocolate</h5>
+
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $6.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/strawberry-ice-cream-on-wooden-600w-280652144.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/strawberry-ice-cream-on-wooden-600w-280652144.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Strawberry</h5>
+
+                  $7.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/homemade-purple-japanese-ube-ice-600w-1687930765.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/homemade-purple-japanese-ube-ice-600w-1687930765.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Ube</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/sweet-spumoni-ice-cream-cherry-600w-1387829504.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/sweet-spumoni-ice-cream-cherry-600w-1387829504.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Spumoni</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$10.00</span
+                  >
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <div
+                class="badge bg-danger text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <a
+                href="https://image.shutterstock.com/image-photo/mango-ice-cream-sorbet-mint-600w-290136122.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/mango-ice-cream-sorbet-mint-600w-290136122.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Mango</h5>
+                  <span class="text-muted text-decoration-line-through"
+                    >$8.00</span
+                  >
+                  $6.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/matcha-tea-ice-cream-white-600w-650755498.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/matcha-tea-ice-cream-white-600w-650755498.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Matcha</h5>
+
+                  $8.00
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-sm-6 mb-5">
+            <div class="card h-100">
+              <a
+                href="https://image.shutterstock.com/image-photo/raspberry-ice-cream-white-bowl-600w-667491568.jpg"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://image.shutterstock.com/image-photo/raspberry-ice-cream-white-bowl-600w-667491568.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body p-4 bg-white">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Raspberry</h5>
+
+                  $6.50
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-primary mt-auto" href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-4">
+          <i class="far fa-arrow-alt-circle-up fa-2x up-icon"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
